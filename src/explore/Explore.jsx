@@ -1,11 +1,9 @@
 import React from 'react'
 import './explore.css'
-import school_webp from "../assets/school1.webps";
+import school_webp from "../assets/school1.webp";
 import school_webp2 from "../assets/school2.webp";
 import school_webp3 from "../assets/school3.webp";
-import school_webp2 from "../assets/";
-import school_webp2 from "../assets/";
-import school_webp2 from "../assets/";
+
 
 
 const Explore = ({selectedCity}) => {
