@@ -1,5 +1,12 @@
 import React from 'react'
 import './explore.css'
+import school_webp from "../assets/school1.webps";
+import school_webp2 from "../assets/school2.webp";
+import school_webp3 from "../assets/school3.webp";
+import school_webp2 from "../assets/";
+import school_webp2 from "../assets/";
+import school_webp2 from "../assets/";
+
 
 const Explore = ({selectedCity}) => {
     const schools = [
@@ -14,7 +21,7 @@ const Explore = ({selectedCity}) => {
     views: "4.56K",
     rating: "5.0",
     city:"mumbai",
-    image: "/src/assets/school1.webp",
+    image: school_webp,
     description:
       "Education is so much more than just books; at Orchids the International School, Koparkhairane, we believe in providing holistic development for our students.",
     admission: true,
@@ -29,7 +36,7 @@ const Explore = ({selectedCity}) => {
     ratio: "30:1",
     views: "9.25K",
     city:"pune",
-    image: "/src/assets/school2.webp",
+    image: school_webp2,
     description:
       "Radcliffe is a chain of schools that believes in the attainment of worthy goals. The educators at Radcliffe School believe that success is not the absence of failure but the attainment of ultimate objectives.",
     admission: true,
@@ -44,7 +51,7 @@ const Explore = ({selectedCity}) => {
     ratio: "18:1",
     views: "6.07K",
     city:"karnataka",
-    image: "/src/assets/school3.webp",
+    image:school_webp3 ,
     description:
       "Orchids The International School provides a balanced learning environment with academics, activities and holistic development.",
     admission: true,
