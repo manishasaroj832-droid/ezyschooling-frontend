@@ -1,0 +1,159 @@
+/* * {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+} */
+
+.admission-card {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #2c3e50;
+  border-left: 4px solid #0056b3;
+  padding-left: 10px;
+}
+
+/* Session Filter */
+.session-filter {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+}
+
+.session-radio-label {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Table Styling */
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.admission-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+.admission-table th {
+  background-color: #f8f9fa;
+  color: #6c757d;
+  font-weight: 600;
+  padding: 12px 16px;
+  border-bottom: 2px solid #edf2f7;
+}
+
+.admission-table td {
+  padding: 14px 16px;
+  border-bottom: 1px solid #edf2f7;
+  vertical-align: middle;
+}
+
+.class-name {
+  font-weight: 600;
+  color: #2b2d42;
+}
+
+.date-label {
+  font-size: 0.75rem;
+  color: #6c757d;
+  display: block;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.status-badge.ongoing {
+  background-color: #e6f4ea;
+  color: #137333;
+}
+
+.status-badge.closed {
+  background-color: #fce8e6;
+  color: #c5221f;
+}
+
+.fee-amount {
+  font-weight: 600;
+}
+
+/* Action Buttons */
+.action-btn-group {
+  display: flex;
+  gap: 8px;
+}
+
+.btn {
+  padding: 6px 16px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.btn-apply {
+  background-color: #ffffff;
+  border-color: #d1d5db;
+  color: #374151;
+}
+
+.btn-apply:hover:not(:disabled) {
+  background-color: #f3f4f6;
+}
+
+.btn-apply:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-enquire {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.btn-enquire:hover {
+  background-color: #0056b3;
+}
+
+/* See All Toggle */
+.see-more-container {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.btn-see-all {
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  padding: 8px 20px;
+  border-radius: 20px;
+  color: #4b5563;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.btn-see-all:hover {
+  background-color: #f9fafb;
+}
