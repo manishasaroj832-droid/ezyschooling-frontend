@@ -2,15 +2,15 @@ import React, { useEffect } from 'react'
 import {useNavigate} from "react-router-dom";
 import './Home.css'
 import {userEffect} from "react"
-import schollImg from "./assests/school_img.jpg";
-import schollImg2 from "./assests/school_img2.jpg";
-import schollImg3 from "./assests/school_img3.jpg";
-import schollImg4 from "./assests/school_img4.jpg ";
-import schollImg5 from "./assests/school_img5.jpg ";
-import house from "./assests/house.webp ";
-import boyStudy from "./assests/boy_study.jpg"
-import fromImg from "./assests/formImage.png";
-import lastImg from "./assests/last_img.jpeg";
+import schollImg from "../assets/school_img.jpg";
+import schollImg2 from "../assets/school_img2.jpg";
+import schollImg3 from "../assets/school_img3.jpg";
+import schollImg4 from "../assets/school_img4.jpg";
+import schollImg5 from "../assets/school_img5.jpg";
+import house from "../assets/house.webp";
+import boyStudy from "../assets/boy_study.jpg"
+import fromImg from "../assets/formImage.png";
+import lastImg from "../assets/last_img.jpeg";
 
 
 
